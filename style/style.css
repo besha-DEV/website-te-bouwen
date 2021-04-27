@@ -1,15 +1,26 @@
-body{
+
+@font-face {
+    font-family: '93_Sarchia_TV';
+    src: url('93_Sarchia_TV.eot'); /* IE9 Compat Modes */
+    src: url('93_Sarchia_TV.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('93_Sarchia_TV.woff') format('woff'), /* Pretty Modern Browsers */
+         url('93_Sarchia_TV.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('93_Sarchia_TV.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }body{
     background:#c4c4c4;
     display:flex;
     width:100%;
     justify-content:center;
     margin: 0;
+    font-family: '93_Sarchia_TV';
+    font-size: 1.3rem;
+    color:#ffffff
 }
 section{
     width:50%;
     display:flex;
     justify-content: center;
     flex-direction: column;
-    background:#dfd659;
+    background:#a967f5;
     text-align: center;
 }
