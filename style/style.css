@@ -9,5 +9,7 @@ section{
     width:50%;
     display:flex;
     justify-content: center;
-    background:#d4d4d4
+    flex-direction: column;
+    background:#dfd659;
+    text-align: center;
 }
