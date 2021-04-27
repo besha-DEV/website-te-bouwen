@@ -1,3 +1,13 @@
 body{
     background:#c4c4c4;
+    display:flex;
+    width:100%;
+    justify-content:center;
+    margin: 0;
+}
+section{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    background:#d4d4d4
 }
